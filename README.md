@@ -1,6 +1,6 @@
 # Java com CRUD de loja simples com Redis
 
-Trabalho da uncisal - banco de dados II - Redis
+Trabalho da Uncisal - Banco de Dados II - Redis 
 
 ## Pré-requisitos  :
 - JDK - 17.0.9 
@@ -12,7 +12,10 @@ Trabalho da uncisal - banco de dados II - Redis
 - Jonas Oliveira
 - Lauanny Rodrigues
 - Renan Carvalho
-
+  
+## Professor
+- Marcos Hilario Costa
+  
 ## Sobre o tema
 Um sistema de loja simples exibe produtos com seus respectivos nomes, preços e IDs, apresentados em uma lista com um menu de opções.
 
