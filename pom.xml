@@ -5,6 +5,13 @@
     <artifactId>LojaApp</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <exec.mainClass>redis.redis.Redis</exec.mainClass>
+    </properties>
+    <name>LojaApp</name>
     <dependencies>
         <dependency>
             <groupId>redis.clients</groupId>
@@ -13,11 +20,4 @@
             <type>jar</type>
         </dependency>
     </dependencies>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
-        <exec.mainClass>redis.redis.Redis</exec.mainClass>
-    </properties>
-    <name>LojaApp</name>
 </project>
